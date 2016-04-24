@@ -1,0 +1,37 @@
+{
+  "name": "structurematchfinder",
+  "version": "0.0.5",
+  "description": "test",
+  "main": "index.html",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "fs": "0.0.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jasmine": "^2.2.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-minify": "0.0.5",
+    "gulp-sass": "^2.2.0",
+    "gulp-scss-lint": "^0.3.9",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "gulp-webserver": "^0.9.1",
+    "html5shiv": "^3.7.3",
+    "imagemin-pngquant": "^4.2.2",
+    "jquery": "^2.2.1",
+    "js-polyfills": "~0.1.12",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "run-sequence": "^1.1.5"
+  },
+  "scripts": {},
+  "keywords": [
+    "simplenotes"
+  ],
+  "author": "Lukas Kalcok",
+  "license": "ISC",
+  "devDependencies": {}
+}

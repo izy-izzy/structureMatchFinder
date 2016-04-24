@@ -1,0 +1,59 @@
+.notes {
+	.note {
+		> div{
+			&:focus {
+				box-shadow: none;
+				outline: none;
+			}
+		}
+		.creator {
+			width: 200px;
+			cursor: pointer;
+		}
+		.title{
+
+			cursor: pointer;
+		}
+		.date {
+			width: 150px;
+			cursor: pointer;
+			position: relative;
+		}
+		.remove {
+			width: 40px;
+			padding: 0;
+		}
+		.delete-icon {
+			display: block;
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			right: 15px;
+			top: 13px;
+			visibility: hidden;
+			opacity: 0;
+		}
+		&:hover {
+			.delete-icon {
+				visibility: visible;
+				opacity: 0.5;
+				&:hover {
+					@include rotate(90deg);
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $screen-sm-max) {
+	.notes {
+		.note {
+			.delete-icon{
+				visibility: visible;
+				opacity: 0.5;
+			}
+		}
+	}
+}
+

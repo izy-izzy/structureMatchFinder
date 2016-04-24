@@ -1,0 +1,61 @@
+$sweet-alert-overlay-color:         rgba(0, 0, 0, 0.75);
+
+.sweet{
+	&-overlay{
+		background-color: $sweet-alert-overlay-color;
+	}
+	&-alert{
+		border-radius: 0;
+		font-family: inherit;
+		button{
+			@include transition(all 0.25s ease-in-out);
+			border-radius: 0;
+			border: 0 solid $white;
+			padding: 10px 15px;
+			color: $white;
+			font-size: 17px;
+			&.confirm{
+				@include box-shadow(0 2px 0 darken($button-color, 20%) !important);
+				background-color: $button-color !important;
+				border-top: 2px solid $button-color;
+				&:hover{
+					color: $white;
+					border-top: 2px solid lighten($button-color, 10%);
+					background-color: lighten($button-color, 10%) !important;
+					box-shadow: none !important;
+				}
+			}
+			&.cancel{
+				border: 2px solid $button-gray-color;
+				background: $white;
+				color: $button-gray-color;
+				text-transform: none;
+				box-shadow: none;
+				&:hover {
+					background: $button-gray-color;
+					color: $white;
+					box-shadow: none;
+				}
+			}
+		}
+		input{
+			@include transition(all 0.15s ease-in-out);
+			border-radius: 0;
+			border: 1px solid $input-border-color;
+			padding: 10px 15px;
+			height: auto;
+			&:focus {
+				@include box-shadow(none);
+				border-color: $input-focus-color;
+			}
+		}
+		.sa{
+			&-input{
+				&-error{
+					top: 26px;
+					right: 15px;
+				}
+			}
+		}
+	}
+}

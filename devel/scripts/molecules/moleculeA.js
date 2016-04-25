@@ -4,15 +4,24 @@ var moleculeA = [
 	},{
 		id: "F"
 	},{
-		id: "G"
+		id: "S"
 	},{
-		id: "K"
+		id: "X"
 	},{
 		id: "S"
 	},{
-		id: "J"
+		id: "F"
 	},{
-		id: "Y"
+		id: "X"
+	},{
+		id: "F"
+	},{
+		id: "S"
+	},{
+		id: "G"
+	},{
+		id: "S"
+	},{
+		id: "F"
 	}
-
 ];

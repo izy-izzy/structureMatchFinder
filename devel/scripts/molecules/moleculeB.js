@@ -5,5 +5,15 @@ var moleculeB = [
 		id: "S"
 	},{
 		id: "G"
+	},{
+		id: "A"
+	},{
+		id: "X"
+	},{
+		id: "S"
+	},{
+		id: "G"
+	},{
+		id: "A"
 	}
 ];

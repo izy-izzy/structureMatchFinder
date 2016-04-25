@@ -4194,7 +4194,7 @@ tbody.collapse.in {
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
-  color: #0f2b43;
+  color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -5812,100 +5812,20 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-.sweet-overlay {
-  background-color: rgba(0, 0, 0, 0.75); }
+h2 {
+  color: #1990C8; }
 
-.sweet-alert {
-  border-radius: 0;
-  font-family: inherit; }
-  .sweet-alert button {
-    -webkit-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
-    border-radius: 0;
-    border: 0 solid #ffffff;
-    padding: 10px 15px;
-    color: #ffffff;
-    font-size: 17px; }
-    .sweet-alert button.confirm {
-      -webkit-box-shadow: 0 2px 0 #0e6f77 !important;
-      box-shadow: 0 2px 0 #0e6f77 !important;
-      background-color: #18c4d3 !important;
-      border-top: 2px solid #18c4d3; }
-      .sweet-alert button.confirm:hover {
-        color: #ffffff;
-        border-top: 2px solid #36dae8;
-        background-color: #36dae8 !important;
-        box-shadow: none !important; }
-    .sweet-alert button.cancel {
-      border: 2px solid #183854;
-      background: #ffffff;
-      color: #183854;
-      text-transform: none;
-      box-shadow: none; }
-      .sweet-alert button.cancel:hover {
-        background: #183854;
-        color: #ffffff;
-        box-shadow: none; }
-  .sweet-alert input {
-    -webkit-transition: all 0.15s ease-in-out;
-    -o-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
-    border-radius: 0;
-    border: 1px solid #b0bdc1;
-    padding: 10px 15px;
-    height: auto; }
-    .sweet-alert input:focus {
-      -webkit-box-shadow: none;
-      box-shadow: none;
-      border-color: #18c4d3; }
-  .sweet-alert .sa-input-error {
-    top: 26px;
-    right: 15px; }
+.molecule .struct {
+  display: inline-block;
+  width: 30px; }
+  .molecule .struct.start {
+    width: 50px;
+    font-weight: bold; }
 
-.notes .note > div:focus {
-  box-shadow: none;
-  outline: none; }
-
-.notes .note .creator {
-  width: 200px;
-  cursor: pointer; }
-
-.notes .note .title {
-  cursor: pointer; }
-
-.notes .note .date {
-  width: 150px;
-  cursor: pointer;
-  position: relative; }
-
-.notes .note .remove {
-  width: 40px;
-  padding: 0; }
-
-.notes .note .delete-icon {
-  display: block;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  right: 15px;
-  top: 13px;
-  visibility: hidden;
-  opacity: 0; }
-
-.notes .note:hover .delete-icon {
-  visibility: visible;
-  opacity: 0.5; }
-  .notes .note:hover .delete-icon:hover {
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-    opacity: 1; }
-
-@media screen and (max-width: 991px) {
-  .notes .note .delete-icon {
-    visibility: visible;
-    opacity: 0.5; } }
+.solutions {
+  margin-top: 20px; }
+  .solutions .solution {
+    margin: 5px;
+    border-bottom: 1px solid silver; }
 
 /*# sourceMappingURL=style.css.map */

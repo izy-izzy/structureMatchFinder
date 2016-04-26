@@ -91,7 +91,8 @@
         "angular"     : false,
         "authService" : false,
         "$compile"    : false,
-        "Firebase"    : false
+        "Firebase"    : false,
+		"$"			  : false
     }
 
 }

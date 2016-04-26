@@ -74,7 +74,7 @@ gulp.task('scripts', function() {
 
 
 gulp.task('lint', function() {
-  return gulp.src('./devel/scripts/*/*.js')
+  return gulp.src('./devel/scripts/**/*.js')
     .pipe(jshint('.jshintrc'))
     .pipe(jshint.reporter('jshint-stylish'));
 });
